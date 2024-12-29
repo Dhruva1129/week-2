@@ -1,0 +1,116 @@
+/* Main Section */
+.policy-subscribe-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Policies Section */
+  .policies {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .policy-item {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .policy-icon {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .policy-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .policy-description {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Subscribe Section */
+  .subscribe {
+    margin-top: 20px;
+  }
+  
+  .subscribe-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe-description {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subscribe-input {
+    width: 250px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .subscribe-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #333;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .policies {
+      /* flex-direction: column; */
+      align-items: center;
+    }
+  
+    .policy-item {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .subscribe-form {
+      flex-direction: column;
+    }
+  
+    .subscribe-input {
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    }
+  
+    .subscribe-button {
+      width: 100%;
+      border-radius: 4px;
+    }
+  }
+  

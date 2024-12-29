@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    position: relative;
+    gap: 260px;
+  }
+  
+  .navbar__title {
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .navbar__links {
+    display: flex;
+    justify-content: center;
+    flex: 2; /* This will make it take up available space between the left and right sections */
+  }
+  
+  .navbar__links ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar__links ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar__links ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .navbar__icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .navbar__menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar {
+      gap: 0px;
+    }
+    .navbar__links {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background-color: white;
+      padding: 10px;
+      display: none;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar__links.active {
+      display: flex;
+    }
+  
+    .navbar__links ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar__links ul li {
+      margin: 10px 0;
+    }
+    .icon {
+      font-size: 15px;
+    }
+  
+    .navbar__menu-icon {
+      font-size: 20px;
+      display: block;
+      padding-left: 15px;
+    }
+  }
+  

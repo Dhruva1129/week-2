@@ -1,0 +1,144 @@
+/* Footer Main Styles */
+.footer {
+    background-color: #fff;
+    color: #333;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #ddd;
+    width: 80vw;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  /* Left Section */
+  .footer-left {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo .dot {
+    color: #e63946;
+  }
+  
+  .footer-description {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.6;
+  }
+  
+  /* Middle Section */
+  .footer-middle {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+  }
+  
+  .footer-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Right Section */
+  .footer-right {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .footer-contact {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .footer-contact a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Bottom Section */
+  .footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 0px 20px;
+    }
+    .footer-container {
+      flex-direction: row; /* Ensure row layout */
+      flex-wrap: wrap;    /* Allow wrapping if needed */
+      justify-content: space-around;
+      text-align: center;
+    }
+    .footer-links a {
+        font-size: 10px;
+    }
+  
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+      flex: 1;
+      margin-right: 10px;
+    }
+    .footer-middle,
+    .footer-right {
+      padding-top: 13px;
+    }
+  
+    .footer-logo {
+      font-size: 15px;
+    }
+  
+    .footer-description,
+    .footer-heading,
+    .footer-links li,
+    .footer-contact {
+      font-size: 7px; /* Adjust text size */
+    }
+  
+    .footer-bottom {
+      font-size: 12px;
+    }
+  }
+  

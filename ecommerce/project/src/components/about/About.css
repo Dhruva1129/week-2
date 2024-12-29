@@ -1,0 +1,79 @@
+/* about.css */
+
+.about-section {
+    padding: 40px 20px;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  .about-header h1 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .about-header p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .about-description,
+  .about-team {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .about-description h2,
+  .about-team h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .about-description p,
+  .about-team p {
+    line-height: 1.4;
+    margin-top: 10px;
+  }
+  
+  .about-contact {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .about-contact h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .about-contact p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .about-description,
+    .about-team {
+      text-align: center;
+    }
+  }
+  

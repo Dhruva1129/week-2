@@ -1,0 +1,103 @@
+/* contact.css */
+
+.contact-section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .contact-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact-header p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  .submit-button {
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #383838;
+  }
+  
+  .contact-info {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .contact-info h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-form {
+      padding: 20px;
+    }
+    .contact-info {
+        margin-top: 20px;
+      }
+      
+      .contact-info h2 {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      
+      .contact-info p {
+        font-size: 12px;
+      }
+  }
+  
